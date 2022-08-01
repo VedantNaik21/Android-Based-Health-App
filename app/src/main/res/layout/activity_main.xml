@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/gain_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#514848"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gain"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+                </ImageButton>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="center_horizontal"
+                    android:clickable="false"
+                    android:text="Gain Weight"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@color/white">
+                </TextView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/lose_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#514848"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lose"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+                </ImageButton>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="center_horizontal"
+                    android:clickable="false"
+                    android:text="Lose Weight"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@color/white">
+                </TextView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/bmi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#514848"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bmi"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+                </ImageButton>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="center_horizontal"
+                    android:clickable="false"
+                    android:text="BMI Calculator"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@color/white">
+                </TextView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/recipes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#514848"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/recipes"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+                </ImageButton>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="center_horizontal"
+                    android:clickable="false"
+                    android:text="Healthy Recipes"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@color/white">
+                </TextView>
+            </FrameLayout>
+
+</LinearLayout>
